@@ -1,0 +1,8 @@
+<?php
+class Mtransaksi extends CI_model{
+	function getTransaksi(){
+		$this->db->select('*');//memilih semua field
+		
+	}
+?>
+ 
